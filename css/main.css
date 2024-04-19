@@ -39,7 +39,7 @@
  *  # works
  *      ## bricks/masonry
  *  # testimonials
- *  # blog
+ *  # planes
  *  # cta
  *  # stats
  *  # contact
@@ -2854,7 +2854,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # blog - (_site-layout.scss)
+ * # planes - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
 
@@ -2874,6 +2874,37 @@ html.no-csstransitions .home-content__main {
     padding: 20px;
     border: 1px solid #ccc;
     margin: 10px;
+
+    .containerplan {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row-plan {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .checkmarkplan {
+        color: #008C2C;
+        font-size: 24px; /* Tamaño del símbolo */
+        margin-right: 10px;
+    }
+    
+    .textplan {
+        font-size: 16px; /* Tamaño del texto */
+    }
+
+    .centerbuttontext {
+        text-align: center; /* Alinea el contenido al centro */
+
+        .cotizarbutton {
+            display: inline-block; /* Permite que el div ocupe solo el ancho de su contenido */
+            margin: 0 auto; /* Margen automático a izquierda y derecha centra el contenido horizontalmente */
+        }
+    }
+    
 }
 
 
