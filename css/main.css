@@ -98,7 +98,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+    color: #62F0E3;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -386,7 +386,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #862121;
+    color: #62F0E3;
 }
 
 dd {
@@ -517,7 +517,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #862121;
+    background: #62F0E3;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -562,7 +562,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #62F0E3;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -756,7 +756,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
  * ------------------------------------------------------------------- */
 
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #cf3e3e;
+    -webkit-text-fill-color: #62F0E3;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -830,8 +830,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: #862121;
-    border-color: #862121;
+    background: #62F0E3;
+    border-color: #62F0E3;
 }
 
 
@@ -860,8 +860,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #862121;
-    color: #862121;
+    border: 0.3rem solid #62F0E3;
+    color: #62F0E3;
 }
 
 .btn--pill, button.btn--pill {
@@ -1087,7 +1087,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #862121;
+    color: #62F0E3;
 }
 
 .stats-tabs li a em {
@@ -1276,7 +1276,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #62F0E3;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1380,11 +1380,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #862121;
+    color: #62F0E3;
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #62F0E3;
 }
 
 .blog-list .blog-date a:hover, 
@@ -1409,7 +1409,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-cat a:hover, 
 .blog-list .blog-cat a:focus, 
 .blog-list .blog-cat a:active {
-    color: #862121;
+    color: #62F0E3;
 }
 
 .blog-list .blog-cat a::after {
@@ -1660,7 +1660,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: #62F0E3;
 }
 
 
@@ -1775,7 +1775,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
-    color: #862121;
+    color: #62F0E3;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -1789,7 +1789,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #62F0E3;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1852,8 +1852,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #62F0E3;
+    border-right: 2px solid #62F0E3;
     content: '';
     display: block;
     height: 8px;
@@ -1927,7 +1927,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #af2b2b;
+    color: #62F0E3;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2203,83 +2203,24 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.about-content {
-    margin-bottom: 3rem;
-}
-
-.about-content .left {
-    padding-right: 40px;
-}
-
-.about-content .right {
-    padding-left: 40px;
-}
-
-
-/* ------------------------------------------------------------------- 
- * ## timeline - (_site-layout.scss) 
- * ------------------------------------------------------------------- */
-
-.timeline {
-    position: relative;
-    text-align: left;
-    margin-top: 3.6rem;
-}
-
-.timeline::before {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    position: absolute;
-    left: 2rem;
-    top: 0;
-}
-
-.timeline__block {
-    position: relative;
-    padding-left: 8rem;
-    min-height: 28.8rem;
-}
-
-.timeline__bullet {
-    background: #0D0A0B;
-    height: 1.5rem;
-    width: 1.5rem;
-    border-radius: 50%;
-    margin-left: -0.75rem;
-    box-shadow: 0 0 0 9px #E9E9E9;
-    position: absolute;
-    left: 2rem;
-    top: .3rem;
-}
-
-.timeline__header .timeline__timeframe {
-    font-size: 1.4rem;
-    line-height: 1.5;
-    text-transform: uppercase;
-    letter-spacing: .15rem;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: .9rem;
-    font-family: "montserrat-bold", sans-serif;
-}
-
-.timeline__header h3 {
-    line-height: 1.25;
-    margin: 0 0 .3rem 0;
-}
-
-.timeline__header h5 {
-    margin-top: 0;
-}
-
-.timeline__desc p {
-    margin: 0;
-    padding-bottom: 3rem;
-}
-
-
+.container {
+    display: flex; /* Utiliza flexbox para distribuir las columnas horizontalmente */
+  }
+  
+  .columna {
+    flex: 1; /* Hace que las columnas tengan el mismo ancho */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+  }
+  
+  .columna img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+  }
+  
+  .columna p {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+  }
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
@@ -2965,7 +2906,7 @@ html.no-csstransitions .home-content__main {
 .stats__upsign i {
     font-size: 2.1rem;
     line-height: 1;
-    color: #cf3e3e;
+    color: #62F0E3;
     color: #008C2C;
 }
 
@@ -3024,7 +2965,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight .stats__count::after {
-    background-color: #862121;
+    background-color: #62F0E3;
 }
 
 .stats__col--highlight h4 {
@@ -3136,7 +3077,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #862121;
+    background: #62F0E3;
 }
 
 .s-contact .form-field label::after {
@@ -3147,7 +3088,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
+    border-right: 5px solid #62F0E3;
 }
 
 .contact__main {
@@ -3164,7 +3105,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact__form {
-    padding-right: 40px;
+    margin: 0 auto;
 }
 
 .contact__form input[type="email"], 
@@ -3172,11 +3113,16 @@ html.no-csstransitions .home-content__main {
 .contact__form input[type="text"], 
 .contact__form input[type="tel"], 
 .contact__form input[type="url"], 
+.contact__form select {
+    border-bottom: 1px solid white;
+}
+.contact__form option {
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+}
 .contact__form textarea {
-    background-color: transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: .9rem;
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .contact__form input[type="email"]:focus, 
@@ -3184,6 +3130,15 @@ html.no-csstransitions .home-content__main {
 .contact__form input[type="text"]:focus, 
 .contact__form input[type="tel"]:focus, 
 .contact__form input[type="url"]:focus, 
+.contact__form select:focus {
+    color: white;
+    border-bottom: 1px solid white;
+    
+}
+.contact__form option:focus{
+    color: rgb(0, 0, 0);
+    border-color: #000000;
+}
 .contact__form textarea:focus {
     color: white;
     border-bottom: 1px solid white;
@@ -3191,8 +3146,8 @@ html.no-csstransitions .home-content__main {
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
+    background-color: #62F0E3;
+    border-color: #62F0E3;
 }
 
 .message-warning, .message-success {
@@ -3352,7 +3307,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #62F0E3;
 }
 
 footer a:hover, footer a:focus {
@@ -3365,7 +3320,7 @@ footer a:hover, footer a:focus {
 
 .footer-site-logo {
     display: block;
-    width: 130px;
+    width: 250px;
 }
 
 .footer-social {
